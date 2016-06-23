@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" manifest="fencechat.manifest">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<title>calC</title>
+	<style type="text/css">
+		@font-face {font-family: 'Ubuntu Mono';src: url(UbuntuMono-Regular.ttf);}
+		*{font-family: 'Ubuntu Mono';}
+		*:focus{outline:0;}
+		body{width:400px;padding:0px;margin:0px;background: #292B37;min-height: 400px;}
+		#wrap{padding:20px;}
+		#calculator{display: table;font-size: 120%;line-height: 20px;}
+		.eqwrap{display: table-row;}
+		.eq{display: table-cell;padding:4px 2px;width:250px;color:#D18D61;letter-spacing:3px;}
+		.op{color:#DA3C40;}
+		.num{color:#FFFFFF;}
+		.result{display: table-cell;padding:4px 2px;color:#59B75C;}
+		.result span{padding:3px;}
+		.result span:hover{background-color: #59B75C;color:#fff;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+		#textbox{color:#FFFFFF;background:none;border:none;display:inline-block;box-sizing: border-box;-webkit-box-sizing: border-box;padding:4px 2px;font-size: 120%;letter-spacing:3px;line-height: 20px;width: 100%;}
+	</style>
+	<script type="text/javascript" src="math.min.js"></script>
+
+</head>
+<body>
+	<div id="wrap">
+		<div id="calculator"></div>
+		<input type="text" id="textbox" placeholder="type..."></div>
+	</div>
+	<script type="text/javascript" src="script.min.js"></script>
+</body>
+</html>
