@@ -1,2 +1,2 @@
 # calc
-A beautiful calculator and converter for chrome
+A beautiful calculator and converter (using Math.js) for chrome
