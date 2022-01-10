@@ -1,6 +1,5 @@
 {
-	"manifest_version": 2,
-
+	"manifest_version": 3,
 	"name": "calz",
 	"description": "A beautiful calculator and converter.",
 	"version": "1.2",
